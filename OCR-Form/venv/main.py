@@ -8,16 +8,15 @@ import os
 per = 25
 pixelThreshold=500
 
-# roi = [[(98, 984), (680, 1074), 'text', 'Name'],
-#        [(740, 980), (1320, 1078), 'text', 'Phone'],
-#        [(98, 1154), (150, 1200), 'box', 'Sign'],
-#        [(738, 1152), (790, 1200), 'box', 'Allergic'],
-#        [(100, 1418), (686, 1518), 'text', 'Email'],
-#        [(740, 1416), (1318, 1512), 'text', 'ID'],
-#        [(110, 1598), (676, 1680), 'text', 'City'],
-#        [(748, 1592), (1328, 1686), 'text', 'Country']]
+roi = [[(98, 984), (680, 1074), 'text', 'Name'],
+       [(740, 980), (1320, 1078), 'text', 'Phone'],
+       [(98, 1154), (150, 1200), 'box', 'Sign'],
+       [(738, 1152), (790, 1200), 'box', 'Allergic'],
+       [(100, 1418), (686, 1518), 'text', 'Email'],
+       [(740, 1416), (1318, 1512), 'text', 'ID'],
+       [(110, 1598), (676, 1680), 'text', 'City'],
+       [(748, 1592), (1328, 1686), 'text', 'Country']]
 
-roi = [[(98, 974), (688, 1080), 'text', 'Name']]
 
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
